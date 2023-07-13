@@ -1,0 +1,99 @@
+
+header {
+	background-color:rgba(93, 173, 226, 0.5);
+	width: 90%;
+	margin: auto;
+	padding: 10px;
+	border-radius: 15px;
+	border-width: 5px;
+}
+
+.uno{
+	background-color: snow;
+	border-radius: 15px;
+	padding:10px;
+	width: 90%;
+	margin: auto;
+	padding: 10px;
+}
+
+.dos{
+	border-radius: 20px;
+	padding:10px;
+	background-color: rgba( 208, 211, 212 ,0.5);
+	margin: 15px;
+	width: 90%;
+	margin: auto;
+	padding: 10px;
+}
+
+#tit{
+	color: snow;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.list{
+	list-style: none;
+	overflow: hidden;
+	display: inline;
+	
+}
+
+.section {
+	width: 90%;
+	margin: auto;
+	padding: 10px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.enlaces{
+	text-decoration: none;
+	color: rgb(167, 16, 16);
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	padding: 10px;
+    font-size: 20px;
+	
+}
+.enlaces:hover {
+	background-color: aqua;
+}
+
+
+#h1{
+    color: rgb(220, 33, 33);
+}
+
+.parrafo{
+	color: rgb(220, 33, 33);
+	font-size: 20px;
+}
+
+.uno{
+	background-color: snow;
+	border-radius: 15px;
+	padding:10px;
+}
+
+.dos{
+	background-color:snow;
+	border-radius: 15px;
+	padding:10px;
+	margin: 15px;
+}
+
+#body{
+background-color:  rgb(162, 217, 206);
+}
+
+.img{
+	border-radius: 15px;
+}
+
+.imgt{
+	border-radius: 5px;
+	border-width: 1px;
+
+}
+.enlaces:hover {
+	color: black;
+}

@@ -1,0 +1,71 @@
+
+header{
+    background-color: rgba(93, 173, 226, 0.5);
+	width: 90%;
+	margin: auto;
+	padding: 10px;
+	border-radius: 15px;
+	border-width: 5px;
+}
+
+#tit{
+	color:snow;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.a{
+	text-decoration: none;
+	color:rgb(143, 61, 61);
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	padding: 10px;
+    font-size: 20px;
+}
+
+.a:hover {
+	background-color: aqua;
+}
+
+.section {
+	width: 90%;
+	margin: auto;
+	padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navul{
+	list-style: none;
+	overflow: hidden;
+	display: inline;
+}
+
+#body{
+    background-color: rgb(162, 217, 206);
+}
+
+#h1{
+    color: rgb(220, 33, 33);
+}
+
+.uno{
+	background-color: snow;
+	border-radius: 15px;
+	padding:10px;
+}
+
+.dos{
+	background-color:snow;
+	border-radius: 15px;
+	padding:10px;
+	margin: 15px;
+}
+
+.parrafo{
+    color: rgb(220, 33, 33);
+	font-size: 30px;
+}
+ 
+.imgt{
+	border-radius: 5px;
+	border-width: 1px;
+
+}
