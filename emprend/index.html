@@ -1,1 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
 
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Especialidades Jose Guillermo Castro C.</title>
+	<style>
+body {
+	text-align: center;
+	background-color: darkgreen;
+}
+
+h1 {
+	color: white;
+}
+
+#conten {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: white;	
+}
+
+.espec {
+	text-decoration: none;
+	background-color: white;
+	display: inline-block;
+	width: 300px;
+	border: 2px solid green;
+	margin: 10px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.espec:visited {
+	color: black;
+}
+
+.espec:hover {
+	scale: 1.5;
+}
+
+/*
+.espec ~ p {
+	display: none;
+}
+
+.espec:hover ~ p {
+		display: block;
+	}
+@media (max-width: 600px) {
+	#conten {
+		display: block;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+}
+*/
+section {
+	margin: 20px;
+	background-color: yellowgreen;
+	padding: 20px;
+	border-radius: 20px;
+}
+
+header {
+	background-color: white;
+}
+
+h1 {
+	font-family: cambria, serif;
+}
+
+h2, p {
+	font-size: 15pt;
+	font-family: verdana, sans-serif;
+}
+
+	</style>
+
+
+</head>
+
+<body>
+
+<header><img src="JGCC.png" width="50%"></header>
+<h1>Especialidades</h1>
+
+<div id="conten">
+
+	<a class="espec" id="prog" href="#descripcionprog">
+	<h2>Programación</h2>
+	<img src="prog.png" width="150">
+	</a>
+
+	<a class="espec" id="com" href="#descripcioncom">
+	<h2>Comercio y mercadeo</h2>
+	<img src="com.jpeg" width="150">
+	</a>
+
+	<a class="espec" id="amb" href="#descripcionamb">
+	<h2>Negocios ambientales</h2>
+	<img src="amb.png" width="150">
+	</a>
+
+</div>
+
+
+<section hidden id="descripcionprog">
+	<h2>Especialidad de Programacion</h2>
+	<p>Esta especialidad busca formar a los estudiantes en habilidades necesarias
+	para afrontar la transformacion digital que se esta viviendo en el mundo.
+	Fundamentos de programación con PseInt, diagramas de flujo, programar tus propios
+	juegos con Scratch, crear páginas web y darles estilo, es lo que aprenderán en esta
+	especialidad.</p>
+	<img src="prog1.jpeg" width="300px">
+</section>
+
+
+<section hidden id="descripcioncom">
+	<h2>Especialidad de Comercio y Mercadeo</h2>
+
+	<p></p>
+	<img src="com1.jpeg" width="300px">
+	<img src="com2.jpeg" width="300px">
+</section>
+
+
+<section hidden id="descripcionamb">
+	<h2>Negocios ambientales</h2>
+	<p><b>LEMA:</b> "Contribuir al medio ambiente es una forma sana de supervivencia ambiental"
+	<br>
+	<br>
+	Quien escoja esta especialidad saldrá capacitado para realizar proyectos ecoturísticos
+	y ambientales, es decir, proyectos que consideren el cuidado del medio ambiente, dando a conocer
+	nuestras montañas, la magnifica serranía del Perijá, cascadas y	zonas campesinas. Ademas manejará
+	correctamente los residuos sólidos dentro del medio ambiente.
+	</p>
+	<img src="amb1.jpeg" width="300px">
+	<img src="amb2.jpeg" width="300px">
+</section>
+
+</body>
+<script>
+	
+const prog = document.getElementById('prog')
+const com = document.getElementById('com')
+const amb = document.getElementById('amb')
+
+const dprog = document.getElementById('descripcionprog')
+const dcom = document.getElementById('descripcioncom')
+const damb = document.getElementById('descripcionamb')
+
+prog.onclick = function () {
+	dprog.hidden = !dprog.hidden
+	dcom.hidden = damb.hidden = true
+}
+
+com.onclick = function () {
+	dcom.hidden = !dcom.hidden
+	dprog.hidden = damb.hidden = true
+}
+
+amb.onclick = function () {
+	damb.hidden = !damb.hidden
+	dcom.hidden = dprog.hidden = true
+}
+</script>
+
+</html>
