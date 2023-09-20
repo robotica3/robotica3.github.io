@@ -13,6 +13,16 @@ body {
 
 h1 {
 	color: white;
+	font-family: cambria, serif;
+}
+
+h2, p {
+	font-size: 15pt;
+	font-family: verdana, sans-serif;
+}
+
+header {
+	background-color: white;
 }
 
 #conten {
@@ -41,22 +51,10 @@ h1 {
 	scale: 1.5;
 }
 
-/*
-.espec ~ p {
-	display: none;
+.foto {
+	width: 300px;
 }
 
-.espec:hover ~ p {
-		display: block;
-	}
-@media (max-width: 600px) {
-	#conten {
-		display: block;
-		padding-top: 10px;
-		padding-bottom: 10px;
-	}
-}
-*/
 section {
 	margin: 20px;
 	background-color: yellowgreen;
@@ -64,17 +62,11 @@ section {
 	border-radius: 20px;
 }
 
-header {
-	background-color: white;
-}
 
-h1 {
-	font-family: cambria, serif;
-}
-
-h2, p {
-	font-size: 15pt;
-	font-family: verdana, sans-serif;
+@media (max-width: 390px) {
+	.foto {
+		width: 200px;
+	}
 }
 
 	</style>
@@ -114,16 +106,26 @@ h2, p {
 	Fundamentos de programación con PseInt, diagramas de flujo, programar tus propios
 	juegos con Scratch, crear páginas web y darles estilo, es lo que aprenderán en esta
 	especialidad.</p>
-	<img src="prog1.jpeg" width="300px">
+	<img src="prog1.jpeg" class="foto">
+	<img src="prog2.jpeg" class="foto">
 </section>
 
 
 <section hidden id="descripcioncom">
 	<h2>Especialidad de Comercio y Mercadeo</h2>
 
-	<p></p>
-	<img src="com1.jpeg" width="300px">
-	<img src="com2.jpeg" width="300px">
+	<p>El <b>comercio</b> es, básicamente, distribuir y vender todo tipo de bienes tanto a nivel
+	nacional como internacional.
+	<br>
+	Por su parte, el <b>mercadeo</b> es un proceso que consiste en planear estrategias para crear
+	un producto vendible.
+	<br>
+	<br>
+	De esta manera, la especialidad de Comercio y Mercadeo engloba las estrategias y técnicas
+	utilizadas por las empresas para vender y promocionar sus productos o servicios. Adaptarse
+a las nuevas tendencias y tecnologías es fundamental para el éxito de cualquier empresa.</p>
+	<img src="com1.jpeg" class="foto">
+	<img src="com2.jpeg" class="foto">
 </section>
 
 
@@ -137,8 +139,8 @@ h2, p {
 	nuestras montañas, la magnifica serranía del Perijá, cascadas y	zonas campesinas. Ademas manejará
 	correctamente los residuos sólidos dentro del medio ambiente.
 	</p>
-	<img src="amb1.jpeg" width="300px">
-	<img src="amb2.jpeg" width="300px">
+	<img src="amb1.jpeg" class="foto">
+	<img src="amb2.jpeg" class="foto">
 </section>
 
 </body>
